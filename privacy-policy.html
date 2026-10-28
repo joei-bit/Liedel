@@ -109,66 +109,86 @@
 <!-- ENGLISH -->
 <div id="lang-en" class="lang-section active">
     <h1>Privacy Policy</h1>
-    <p class="effective-date">Effective date: February 27, 2026</p>
+    <p class="effective-date">Effective date: October 28, 2026</p>
 
-    <p>Matikkapeli ("the App") is a children's math learning game developed by Liedel. We take your family's privacy seriously. This policy explains how the App handles data.</p>
+    <p>Matikkapelisi (Matikkapeli, "the App") is a children's math learning game for iPhone, iPad and Android, developed by Liedel. We take your family's privacy seriously. This policy explains how the App handles data.</p>
 
     <div class="highlight">
-        <p>Matikkapeli does not collect, transmit, or share any personal data. All information stays on your device.</p>
+        <p>Matikkapelisi does not collect any personal data: we never receive any information about you or your child. The App's data stays on your device, and goes to your own Apple or Google account only if you use iCloud, Game Center or Android backup (see sections 2 and 6).</p>
     </div>
 
     <h2>1. Information We Do Not Collect</h2>
     <p>The App does <strong>not</strong>:</p>
     <ul>
-        <li>Collect or transmit any personal information</li>
+        <li>Collect any personal information or send it to us</li>
         <li>Use analytics, advertising, or tracking services</li>
         <li>Require an internet connection to function</li>
-        <li>Send data to any server or third party</li>
+        <li>Send data to our servers (we have none) or to third parties. On iPhone and iPad, the App can use Apple's iCloud and Game Center through your own Apple Account (see section 2)</li>
         <li>Use cookies or similar tracking technologies</li>
         <li>Contain any third-party SDKs or frameworks</li>
     </ul>
 
     <h2>2. Data Stored Locally on Your Device</h2>
-    <p>The App stores the following information exclusively on your device to provide its features:</p>
+    <p>The App stores the following information on your device to provide its features:</p>
     <ul>
         <li><strong>Player profiles:</strong> Name and optional date of birth (used only for birthday celebrations within the app), avatar customization choices</li>
         <li><strong>Game progress:</strong> Current level, stars earned, streaks, and achievements</li>
         <li><strong>Learning statistics:</strong> Problems attempted, correct answers, and per-operation progress to adapt the learning experience</li>
-        <li><strong>Play sessions:</strong> Date, duration, and performance of recent sessions (last 30 days, stored locally only)</li>
+        <li><strong>Play sessions:</strong> Date, duration, and performance of recent sessions (last 30 days)</li>
         <li><strong>App settings:</strong> Language preference, sound/music toggles, theme selection, and enabled math operations</li>
     </ul>
-    <p>This data is stored using the iOS file system and UserDefaults. It never leaves your device and is protected by iOS built-in security features, including device encryption.</p>
+    <p>On iPhone and iPad, this data is stored using the iOS file system and UserDefaults and is protected by iOS built-in security features, including device encryption. Two optional Apple services can also handle it:</p>
+    <ul>
+        <li><strong>iCloud sync:</strong> If the device is signed in to iCloud, the App keeps player profiles, progress and settings in sync between your devices through Apple's iCloud (CloudKit), in the private storage of the iCloud account signed in on the device. We cannot see or access this data, and Apple's privacy policy applies to iCloud. The optional parent code is never synced; it stays on the device. You can turn iCloud off for the App in the device's iCloud settings.</li>
+        <li><strong>Game Center leaderboards:</strong> If the device is signed in to Game Center, the App sends one child's number of correct answers (all time, this week and this month) to Apple's Game Center leaderboards. A parent can choose the child in Settings. Other players see the score with the Game Center account's nickname; the child's name and other profile information in the App are not sent. Friends and friend requests are Game Center features provided by Apple. The App never asks anyone to sign in to Game Center, and parents can turn Game Center off or restrict it with Screen Time. Apple's privacy policy applies to Game Center.</li>
+    </ul>
 
     <h2>3. Children's Privacy</h2>
-    <p>Matikkapeli is designed for children and complies with the Children's Online Privacy Protection Act (COPPA) and Apple's guidelines for kids' apps:</p>
+    <p>Matikkapeli is designed for children and complies with the Children's Online Privacy Protection Act (COPPA), Apple's guidelines for kids' apps and Google Play's Families Policy:</p>
     <ul>
         <li>We do not collect personal information from children (or anyone)</li>
         <li>We do not include third-party advertising</li>
         <li>We do not include in-app purchases</li>
         <li>We do not include links to external websites other than this privacy policy</li>
         <li>We do not include social media integration</li>
-        <li>The App functions entirely offline</li>
+        <li>The App works fully offline; iCloud sync and Game Center leaderboards (iPhone and iPad) need a connection</li>
     </ul>
 
     <h2>4. Data Retention and Deletion</h2>
-    <p>Since all data is stored locally on your device:</p>
+    <p>Since the data is stored on your device and in your own accounts:</p>
     <ul>
         <li>You can delete individual player profiles at any time from within the App</li>
-        <li>Deleting the App from your device removes all associated data permanently</li>
+        <li>Deleting the App from your device removes the data stored on that device</li>
         <li>Play session history is automatically limited to the last 30 days</li>
-        <li>No data backup or sync to cloud services is performed by the App</li>
+        <li>On iPhone and iPad, data synced to iCloud stays in your iCloud account after the App is deleted, so it comes back if you reinstall the App. You can delete it in the device's iCloud storage settings (Settings &gt; [your name] &gt; iCloud &gt; Manage Account Storage; menu names vary). Game Center scores belong to your Game Center account.</li>
+        <li>On Android, the device's own backup can include the App's data (see section 6)</li>
     </ul>
 
-    <h2>5. System APIs Used</h2>
+    <h2>5. System APIs Used on iPhone and iPad</h2>
     <p>The App uses only the following system API that requires disclosure under Apple's privacy manifest guidelines:</p>
     <ul>
         <li><strong>UserDefaults:</strong> Used to store app settings and preferences locally on the device</li>
     </ul>
 
-    <h2>6. Changes to This Policy</h2>
+    <h2>6. Matikkapelisi for Android</h2>
+    <p>This section applies to the Android version of the App, distributed through Google Play. Everything above also applies to it, with these Android-specific details:</p>
+    <ul>
+        <li><strong>Data stored on the device:</strong> The same information as in section 2: player profiles (name, optional birthday or birth year, grade, avatar), game progress, learning statistics, test practice plans, recent play sessions and app settings, plus the optional parent code and a random identifier the App creates to count stars on the device. It is kept in the App's private storage, which other apps cannot read.</li>
+        <li><strong>No internet access:</strong> The Android app does not request permission to use the internet, has no accounts, and does not send any data to us or to anyone else.</li>
+        <li><strong>Android backup:</strong> If backup is turned on in the device settings, Android includes the App's data in the device backup, which is stored in the device owner's Google account. Android makes this backup, not the App, and we have no access to it. On Android 9 and later, when the device has a screen lock, the backup is end-to-end encrypted with the device's PIN, pattern or password. The backup brings the profiles back when the App is reinstalled or a new device is set up. You can turn backup off in the device's backup settings and delete backups from your Google account.</li>
+        <li><strong>Notifications:</strong> Reminders are optional and off by default. A parent can turn them on for a profile; Android 13 and later then ask for permission to show notifications. Reminders are scheduled and shown on the device (Android WorkManager); no push service or server is involved. They can be turned off in the App or in the Android settings.</li>
+        <li><strong>Read aloud:</strong> Narration uses the text-to-speech engine installed on the device (for example, Speech Services by Google or the device maker's engine). The App passes it only the task and feedback text shown on screen, never a name or other profile information. The engine is a separate app from Google or the device maker, and its own privacy terms apply to it.</li>
+        <li><strong>Permissions:</strong> Notifications (only when reminders are on), vibration (haptic feedback), and the permissions Android's WorkManager library uses to keep scheduled reminders after a restart (run at startup, keep the device awake, view network connections). The App does not use location, the camera, the microphone, contacts or your files, and the advertising ID permission is removed.</li>
+        <li><strong>No third-party services:</strong> The Android app contains no advertising, analytics, crash reporting or tracking SDKs, no social features, no Google Play Games and no sign-in. It uses only Android's own libraries (AndroidX/Jetpack), which do not collect data.</li>
+        <li><strong>Google Play:</strong> Google may collect information about the download and installation and, if the device owner allows it, crash and diagnostics data, under Google's own privacy policy. In Google Play Console we see only aggregated statistics and anonymous crash reports (for example, device model and Android version) that do not identify anyone.</li>
+        <li><strong>Deleting data:</strong> Delete a profile in the App (behind the grown-ups question). To remove all data, clear the App's storage in the Android settings (Settings &gt; Apps &gt; Matikkapelisi &gt; Storage &gt; Clear storage; menu names vary by device) or uninstall the App. Data in the device backup is managed in your Google account's backup settings.</li>
+    </ul>
+    <p>Because we never receive any data from the App, we cannot view, correct or delete it for you. It stays fully under your control on the device and in your own backup.</p>
+
+    <h2>7. Changes to This Policy</h2>
     <p>If we update this privacy policy, we will post the revised version on this page and update the effective date. Since the App does not collect any contact information, we encourage you to review this page periodically.</p>
 
-    <h2>7. Contact Us</h2>
+    <h2>8. Contact Us</h2>
     <p>If you have questions about this privacy policy or the App, please contact us at:</p>
     <p><a href="mailto:info@liedel.fi">info@liedel.fi</a></p>
 </div>
@@ -176,66 +196,86 @@
 <!-- FINNISH -->
 <div id="lang-fi" class="lang-section">
     <h1>Tietosuojakäytäntö</h1>
-    <p class="effective-date">Voimaantulopäivä: 27. helmikuuta 2026</p>
+    <p class="effective-date">Voimaantulopäivä: 28. lokakuuta 2026</p>
 
-    <p>Matikkapeli ("sovellus") on lasten matemaattinen oppimispeli, jonka on kehittänyt Liedel. Otamme perheesi yksityisyyden vakavasti. Tämä käytäntö selittää, miten sovellus käsittelee tietoja.</p>
+    <p>Matikkapelisi (Matikkapeli, "sovellus") on Liedelin kehittämä lasten matematiikan oppimispeli iPhonelle, iPadille ja Androidille. Otamme perheesi yksityisyyden vakavasti. Tämä käytäntö selittää, miten sovellus käsittelee tietoja.</p>
 
     <div class="highlight">
-        <p>Matikkapeli ei kerää, lähetä tai jaa mitään henkilötietoja. Kaikki tiedot pysyvät laitteellasi.</p>
+        <p>Matikkapelisi ei kerää henkilötietoja: emme koskaan saa mitään tietoja sinusta tai lapsestasi. Sovelluksen tiedot pysyvät laitteellasi ja päätyvät omalle Apple- tai Google-tilillesi vain, jos käytät iCloudia, Game Centeriä tai Androidin varmuuskopiota (ks. kohdat 2 ja 6).</p>
     </div>
 
     <h2>1. Tiedot, joita emme kerää</h2>
     <p>Sovellus <strong>ei</strong>:</p>
     <ul>
-        <li>Kerää tai lähetä henkilötietoja</li>
+        <li>Kerää henkilötietoja tai lähetä niitä meille</li>
         <li>Käytä analytiikka-, mainos- tai seurantapalveluja</li>
         <li>Vaadi internet-yhteyttä toimiakseen</li>
-        <li>Lähetä tietoja palvelimelle tai kolmansille osapuolille</li>
+        <li>Lähetä tietoja palvelimillemme (meillä ei ole sellaisia) tai kolmansille osapuolille. iPhonella ja iPadilla sovellus voi käyttää Applen iCloud- ja Game Center -palveluja omalla Apple-tililläsi (ks. kohta 2)</li>
         <li>Käytä evästeitä tai vastaavia seurantateknologioita</li>
         <li>Sisällä kolmannen osapuolen SDK:ita tai kehyksiä</li>
     </ul>
 
     <h2>2. Laitteellesi paikallisesti tallennetut tiedot</h2>
-    <p>Sovellus tallentaa seuraavat tiedot ainoastaan laitteellesi palveluidensa tarjoamiseksi:</p>
+    <p>Sovellus tallentaa seuraavat tiedot laitteellesi palveluidensa tarjoamiseksi:</p>
     <ul>
         <li><strong>Pelaajaprofiilit:</strong> Nimi ja valinnainen syntymäaika (käytetään vain syntymäpäiväjuhliin sovelluksessa), avatar-valinnat</li>
         <li><strong>Peliedistyminen:</strong> Nykyinen taso, ansaitut tähdet, putket ja saavutukset</li>
         <li><strong>Oppimistilastot:</strong> Tehdyt tehtävät, oikeat vastaukset ja laskutoimituskohtainen edistyminen oppimiskokemuksen mukauttamiseksi</li>
-        <li><strong>Pelikerrat:</strong> Viimeisten 30 päivän pelikertojen päivämäärä, kesto ja suoritustiedot (tallennettu vain paikallisesti)</li>
+        <li><strong>Pelikerrat:</strong> Viimeisten 30 päivän pelikertojen päivämäärä, kesto ja suoritustiedot</li>
         <li><strong>Sovelluksen asetukset:</strong> Kielivalinta, ääni-/musiikkiasetukset, teeman valinta ja käytössä olevat laskutoimitukset</li>
     </ul>
-    <p>Tiedot tallennetaan iOS-tiedostojärjestelmän ja UserDefaultsin avulla. Ne eivät koskaan poistu laitteeltasi, ja niitä suojaavat iOS:n sisäänrakennetut tietoturvaominaisuudet, mukaan lukien laitteen salaus.</p>
+    <p>iPhonella ja iPadilla tiedot tallennetaan iOS-tiedostojärjestelmän ja UserDefaultsin avulla, ja niitä suojaavat iOS:n sisäänrakennetut tietoturvaominaisuudet, mukaan lukien laitteen salaus. Lisäksi kaksi valinnaista Applen palvelua voi käsitellä niitä:</p>
+    <ul>
+        <li><strong>iCloud-synkronointi:</strong> Jos laitteella on kirjauduttu iCloudiin, sovellus synkronoi pelaajaprofiilit, edistymisen ja asetukset laitteidesi välillä Applen iCloudin (CloudKit) kautta laitteelle kirjautuneen iCloud-tilin yksityiseen tallennustilaan. Emme näe näitä tietoja emmekä pääse niihin käsiksi, ja iCloudiin sovelletaan Applen tietosuojakäytäntöä. Valinnaista vanhemman koodia ei koskaan synkronoida, vaan se pysyy laitteella. Voit kytkeä iCloudin pois sovellukselta laitteen iCloud-asetuksista.</li>
+        <li><strong>Game Center -tulostaulut:</strong> Jos laitteella on kirjauduttu Game Centeriin, sovellus lähettää yhden lapsen oikeiden vastausten määrän (kaikkien aikojen, tämän viikon ja tämän kuukauden) Applen Game Center -tulostauluille. Vanhempi voi valita lapsen asetuksista. Muut pelaajat näkevät tuloksen Game Center -tilin nimimerkillä; lapsen nimeä tai muita sovelluksen profiilitietoja ei lähetetä. Kaverit ja kaveripyynnöt ovat Applen tarjoamia Game Centerin toimintoja. Sovellus ei koskaan pyydä ketään kirjautumaan Game Centeriin, ja vanhemmat voivat kytkeä Game Centerin pois tai rajoittaa sitä Ruutuajalla. Game Centeriin sovelletaan Applen tietosuojakäytäntöä.</li>
+    </ul>
 
     <h2>3. Lasten yksityisyys</h2>
-    <p>Matikkapeli on suunniteltu lapsille ja noudattaa lasten yksityisyydensuojaa koskevia säädöksiä (COPPA) sekä Applen ohjeita lastensovelluksille:</p>
+    <p>Matikkapeli on suunniteltu lapsille ja noudattaa lasten yksityisyydensuojaa koskevia säädöksiä (COPPA), Applen ohjeita lastensovelluksille sekä Google Playn perhekäytäntöä (Families Policy):</p>
     <ul>
         <li>Emme kerää henkilötietoja lapsilta (tai keneltäkään)</li>
         <li>Sovellus ei sisällä kolmannen osapuolen mainontaa</li>
         <li>Sovellus ei sisällä sovelluksen sisäisiä ostoja</li>
         <li>Sovellus ei sisällä linkkejä ulkoisille verkkosivuille tätä tietosuojakäytäntöä lukuun ottamatta</li>
         <li>Sovellus ei sisällä sosiaalisen median integraatioita</li>
-        <li>Sovellus toimii täysin offline-tilassa</li>
+        <li>Sovellus toimii täysin ilman verkkoyhteyttä; iCloud-synkronointi ja Game Center -tulostaulut (iPhone ja iPad) tarvitsevat yhteyden</li>
     </ul>
 
     <h2>4. Tietojen säilytys ja poistaminen</h2>
-    <p>Koska kaikki tiedot tallennetaan paikallisesti laitteellesi:</p>
+    <p>Koska tiedot tallennetaan laitteellesi ja omille tileillesi:</p>
     <ul>
-        <li>Voit poistaa yksittäisiä pelaajaprofiiileja milloin tahansa sovelluksesta</li>
-        <li>Sovelluksen poistaminen laitteeltasi poistaa kaikki siihen liittyvät tiedot pysyvästi</li>
+        <li>Voit poistaa yksittäisiä pelaajaprofiileja milloin tahansa sovelluksesta</li>
+        <li>Sovelluksen poistaminen laitteelta poistaa laitteelle tallennetut tiedot</li>
         <li>Pelikertojen historia rajoitetaan automaattisesti viimeiseen 30 päivään</li>
-        <li>Sovellus ei varmuuskopioi tai synkronoi tietoja pilvipalveluihin</li>
+        <li>iPhonella ja iPadilla iCloudiin synkronoidut tiedot jäävät iCloud-tilillesi sovelluksen poistamisen jälkeen, joten ne palaavat, jos asennat sovelluksen uudelleen. Voit poistaa ne laitteen iCloud-tallennustilan asetuksista (Asetukset &gt; [nimesi] &gt; iCloud &gt; Hallitse tilin tallennustilaa; valikoiden nimet vaihtelevat). Game Center -tulokset kuuluvat Game Center -tilillesi.</li>
+        <li>Androidilla laitteen oma varmuuskopio voi sisältää sovelluksen tiedot (ks. kohta 6)</li>
     </ul>
 
-    <h2>5. Käytetyt järjestelmärajapinnat</h2>
+    <h2>5. iPhonen ja iPadin järjestelmärajapinnat</h2>
     <p>Sovellus käyttää vain seuraavaa järjestelmärajapintaa, joka vaatii ilmoituksen Applen tietosuojailmoituksen mukaisesti:</p>
     <ul>
         <li><strong>UserDefaults:</strong> Käytetään sovelluksen asetusten tallentamiseen paikallisesti laitteelle</li>
     </ul>
 
-    <h2>6. Muutokset tähän käytäntöön</h2>
+    <h2>6. Matikkapelisi Androidille</h2>
+    <p>Tämä kohta koskee sovelluksen Android-versiota, jota jaetaan Google Playn kautta. Kaikki edellä kerrottu koskee myös sitä seuraavin Android-kohtaisin tarkennuksin:</p>
+    <ul>
+        <li><strong>Laitteelle tallennettavat tiedot:</strong> Samat tiedot kuin kohdassa 2: pelaajaprofiilit (nimi, valinnainen syntymäpäivä tai syntymävuosi, luokka-aste, avatar), peliedistyminen, oppimistilastot, koeharjoittelun suunnitelmat, viimeaikaiset pelikerrat ja sovelluksen asetukset sekä valinnainen vanhemman koodi ja satunnainen tunniste, jonka sovellus luo laitteella ansaittujen tähtien laskemiseen. Tiedot ovat sovelluksen omassa tallennustilassa, jota muut sovellukset eivät voi lukea.</li>
+        <li><strong>Ei internet-yhteyttä:</strong> Android-sovellus ei pyydä lupaa käyttää internetiä, siinä ei ole käyttäjätilejä, eikä se lähetä tietoja meille eikä kenellekään muulle.</li>
+        <li><strong>Androidin varmuuskopio:</strong> Jos varmuuskopiointi on päällä laitteen asetuksissa, Android ottaa sovelluksen tiedot mukaan laitteen varmuuskopioon, joka tallennetaan laitteen omistajan Google-tilille. Varmuuskopion tekee Android, ei sovellus, eikä meillä ole siihen pääsyä. Android 9:ssä ja uudemmissa varmuuskopio salataan päästä päähän laitteen PIN-koodilla, kuviolla tai salasanalla, kun laitteessa on näytön lukitus. Varmuuskopion ansiosta profiilit palaavat, kun sovellus asennetaan uudelleen tai uusi laite otetaan käyttöön. Varmuuskopioinnin voi kytkeä pois laitteen varmuuskopiointiasetuksista, ja varmuuskopiot voi poistaa Google-tililtä.</li>
+        <li><strong>Ilmoitukset:</strong> Muistutukset ovat vapaaehtoisia ja oletuksena pois päältä. Vanhempi voi kytkeä ne päälle profiilikohtaisesti, jolloin Android 13 ja uudemmat kysyvät luvan ilmoitusten näyttämiseen. Muistutukset ajastetaan ja näytetään laitteella (Androidin WorkManager); push-palvelua tai palvelinta ei käytetä. Ne voi kytkeä pois sovelluksesta tai Androidin asetuksista.</li>
+        <li><strong>Ääneen lukeminen:</strong> Ääneen lukeminen käyttää laitteeseen asennettua puhesynteesimoottoria (esimerkiksi Googlen puhepalveluja tai laitevalmistajan omaa moottoria). Sovellus välittää sille vain näytöllä näkyvän tehtävä- ja palautetekstin, ei koskaan nimeä tai muita profiilitietoja. Moottori on Googlen tai laitevalmistajan erillinen sovellus, johon sovelletaan sen omia tietosuojaehtoja.</li>
+        <li><strong>Käyttöoikeudet:</strong> Ilmoitukset (vain kun muistutukset ovat päällä), värinä (tuntopalaute) sekä käyttöoikeudet, joita Androidin WorkManager-kirjasto käyttää ajastettujen muistutusten säilyttämiseen laitteen uudelleenkäynnistyksen yli (käynnistys laitteen käynnistyessä, laitteen pitäminen hereillä, verkkoyhteyksien tarkastelu). Sovellus ei käytä sijaintia, kameraa, mikrofonia, yhteystietoja eikä tiedostojasi, ja mainostunnisteen käyttöoikeus on poistettu.</li>
+        <li><strong>Ei kolmansien osapuolten palveluja:</strong> Android-sovelluksessa ei ole mainos-, analytiikka-, virheraportointi- tai seurantakirjastoja, sosiaalisia toimintoja, Google Play Pelit -palvelua eikä kirjautumista. Se käyttää vain Androidin omia kirjastoja (AndroidX/Jetpack), jotka eivät kerää tietoja.</li>
+        <li><strong>Google Play:</strong> Google voi kerätä tietoja sovelluksen lataamisesta ja asentamisesta sekä, jos laitteen omistaja on sen sallinut, kaatumis- ja diagnostiikkatietoja Googlen oman tietosuojakäytännön mukaisesti. Me näemme Google Play Consolessa vain koostettuja tilastoja ja nimettömiä kaatumisraportteja (esimerkiksi laitemalli ja Android-versio), joista ketään ei voi tunnistaa.</li>
+        <li><strong>Tietojen poistaminen:</strong> Profiilin voi poistaa sovelluksessa (aikuisten kysymyksen takana). Kaikki tiedot poistuvat, kun tyhjennät sovelluksen tallennustilan Androidin asetuksista (Asetukset &gt; Sovellukset &gt; Matikkapelisi &gt; Tallennustila &gt; Tyhjennä tallennustila; valikoiden nimet vaihtelevat laitteittain) tai poistat sovelluksen. Laitteen varmuuskopiossa olevia tietoja hallitaan Google-tilin varmuuskopiointiasetuksista.</li>
+    </ul>
+    <p>Koska emme koskaan saa sovelluksesta mitään tietoja, emme voi nähdä, korjata tai poistaa niitä puolestasi. Ne ovat kokonaan sinun hallinnassasi laitteella ja omassa varmuuskopiossasi.</p>
+
+    <h2>7. Muutokset tähän käytäntöön</h2>
     <p>Jos päivitämme tätä tietosuojakäytäntöä, julkaisemme päivitetyn version tällä sivulla ja päivitämme voimaantulopäivän. Koska sovellus ei kerää yhteystietoja, suosittelemme tarkistamaan tämän sivun säännöllisesti.</p>
 
-    <h2>7. Ota yhteyttä</h2>
+    <h2>8. Ota yhteyttä</h2>
     <p>Jos sinulla on kysyttävää tästä tietosuojakäytännöstä tai sovelluksesta, ota yhteyttä:</p>
     <p><a href="mailto:info@liedel.fi">info@liedel.fi</a></p>
 </div>
@@ -243,66 +283,86 @@
 <!-- SWEDISH -->
 <div id="lang-sv" class="lang-section">
     <h1>Integritetspolicy</h1>
-    <p class="effective-date">Giltighetsdatum: 27 februari 2026</p>
+    <p class="effective-date">Giltighetsdatum: 28 oktober 2026</p>
 
-    <p>Matikkapeli ("appen") är ett matematiskt inlärningsspel för barn, utvecklat av Liedel. Vi tar din familjs integritet på allvar. Denna policy förklarar hur appen hanterar data.</p>
+    <p>Matikkapelisi (Matikkapeli, "appen") är ett matematikspel för barn för iPhone, iPad och Android, utvecklat av Liedel. Vi tar din familjs integritet på allvar. Denna policy förklarar hur appen hanterar data.</p>
 
     <div class="highlight">
-        <p>Matikkapeli samlar inte in, överför eller delar några personuppgifter. All information stannar på din enhet.</p>
+        <p>Matikkapelisi samlar inte in några personuppgifter: vi får aldrig någon information om dig eller ditt barn. Appens data stannar på din enhet och hamnar i ditt eget Apple- eller Google-konto bara om du använder iCloud, Game Center eller Androids säkerhetskopiering (se avsnitt 2 och 6).</p>
     </div>
 
     <h2>1. Information vi inte samlar in</h2>
     <p>Appen <strong>gör inte</strong> följande:</p>
     <ul>
-        <li>Samlar in eller överför personuppgifter</li>
+        <li>Samlar in personuppgifter eller skickar dem till oss</li>
         <li>Använder analys-, reklam- eller spårningstjänster</li>
         <li>Kräver internetanslutning för att fungera</li>
-        <li>Skickar data till någon server eller tredje part</li>
+        <li>Skickar data till våra servrar (vi har inga) eller till tredje part. På iPhone och iPad kan appen använda Apples iCloud och Game Center via ditt eget Apple-konto (se avsnitt 2)</li>
         <li>Använder cookies eller liknande spårningsteknik</li>
         <li>Innehåller SDK:er eller ramverk från tredje part</li>
     </ul>
 
     <h2>2. Data som lagras lokalt på din enhet</h2>
-    <p>Appen lagrar följande information uteslutande på din enhet för att tillhandahålla sina funktioner:</p>
+    <p>Appen lagrar följande information på din enhet för att tillhandahålla sina funktioner:</p>
     <ul>
         <li><strong>Spelarprofiler:</strong> Namn och valfritt födelsedatum (används bara för födelsedagsfiranden i appen), avatarval</li>
         <li><strong>Spelframsteg:</strong> Aktuell nivå, intjänade stjärnor, serier och prestationer</li>
         <li><strong>Inlärningsstatistik:</strong> Uppgifter gjorda, rätta svar och framsteg per räknesätt för att anpassa inlärningsupplevelsen</li>
-        <li><strong>Spelsessioner:</strong> Datum, varaktighet och resultat för de senaste 30 dagarnas sessioner (lagras bara lokalt)</li>
+        <li><strong>Spelsessioner:</strong> Datum, varaktighet och resultat för de senaste 30 dagarnas sessioner</li>
         <li><strong>Appinställningar:</strong> Språkpreferens, ljud-/musikinställningar, temaval och aktiverade räknesätt</li>
     </ul>
-    <p>Data lagras med iOS-filsystemet och UserDefaults. Den lämnar aldrig din enhet och skyddas av iOS inbyggda säkerhetsfunktioner, inklusive enhetskryptering.</p>
+    <p>På iPhone och iPad lagras data med iOS-filsystemet och UserDefaults och skyddas av iOS inbyggda säkerhetsfunktioner, inklusive enhetskryptering. Dessutom kan två valfria tjänster från Apple hantera den:</p>
+    <ul>
+        <li><strong>iCloud-synkning:</strong> Om enheten är inloggad i iCloud synkar appen spelarprofiler, framsteg och inställningar mellan dina enheter via Apples iCloud (CloudKit), i det privata lagringsutrymmet för det iCloud-konto som är inloggat på enheten. Vi kan inte se eller komma åt dessa uppgifter, och Apples integritetspolicy gäller för iCloud. Den valfria föräldrakoden synkas aldrig utan stannar på enheten. Du kan stänga av iCloud för appen i enhetens iCloud-inställningar.</li>
+        <li><strong>Game Center-topplistor:</strong> Om enheten är inloggad i Game Center skickar appen ett barns antal rätta svar (totalt, den här veckan och den här månaden) till Apples Game Center-topplistor. En förälder kan välja barnet i inställningarna. Andra spelare ser resultatet med Game Center-kontots smeknamn; barnets namn och andra profiluppgifter i appen skickas inte. Vänner och vänförfrågningar är Game Center-funktioner som tillhandahålls av Apple. Appen ber aldrig någon att logga in i Game Center, och föräldrar kan stänga av Game Center eller begränsa det med Skärmtid. Apples integritetspolicy gäller för Game Center.</li>
+    </ul>
 
     <h2>3. Barns integritet</h2>
-    <p>Matikkapeli är utformat för barn och följer lagen om skydd av barns integritet online (COPPA) och Apples riktlinjer för barnappar:</p>
+    <p>Matikkapeli är utformat för barn och följer lagen om skydd av barns integritet online (COPPA), Apples riktlinjer för barnappar och Google Plays familjepolicy (Families Policy):</p>
     <ul>
         <li>Vi samlar inte in personuppgifter från barn (eller någon annan)</li>
         <li>Appen innehåller ingen tredjepartsreklam</li>
         <li>Appen innehåller inga köp i appen</li>
         <li>Appen innehåller inga länkar till externa webbplatser förutom denna integritetspolicy</li>
         <li>Appen innehåller ingen integration med sociala medier</li>
-        <li>Appen fungerar helt offline</li>
+        <li>Appen fungerar helt offline; iCloud-synkning och Game Center-topplistor (iPhone och iPad) kräver en anslutning</li>
     </ul>
 
     <h2>4. Datalagring och radering</h2>
-    <p>Eftersom all data lagras lokalt på din enhet:</p>
+    <p>Eftersom data lagras på din enhet och i dina egna konton:</p>
     <ul>
         <li>Du kan radera enskilda spelarprofiler när som helst inifrån appen</li>
-        <li>Om du raderar appen från din enhet tas all tillhörande data bort permanent</li>
+        <li>Om du raderar appen från enheten tas den data som lagrats på enheten bort</li>
         <li>Spelsessionshistorik begränsas automatiskt till de senaste 30 dagarna</li>
-        <li>Appen säkerhetskopierar eller synkroniserar inte data till molntjänster</li>
+        <li>På iPhone och iPad finns data som synkats till iCloud kvar i ditt iCloud-konto när appen raderas, så den kommer tillbaka om du installerar om appen. Du kan radera den i enhetens inställningar för iCloud-lagring (Inställningar &gt; [ditt namn] &gt; iCloud &gt; Hantera kontolagring; menynamnen varierar). Game Center-resultat hör till ditt Game Center-konto.</li>
+        <li>På Android kan enhetens egen säkerhetskopia innehålla appens data (se avsnitt 6)</li>
     </ul>
 
-    <h2>5. Använda system-API:er</h2>
+    <h2>5. System-API:er på iPhone och iPad</h2>
     <p>Appen använder bara följande system-API som kräver redovisning enligt Apples sekretessmanifestlinjer:</p>
     <ul>
         <li><strong>UserDefaults:</strong> Används för att lagra appinställningar lokalt på enheten</li>
     </ul>
 
-    <h2>6. Ändringar av denna policy</h2>
+    <h2>6. Matikkapelisi för Android</h2>
+    <p>Det här avsnittet gäller appens Android-version, som distribueras via Google Play. Allt ovan gäller också den, med följande Android-specifika detaljer:</p>
+    <ul>
+        <li><strong>Data som lagras på enheten:</strong> Samma information som i avsnitt 2: spelarprofiler (namn, valfri födelsedag eller valfritt födelseår, årskurs, avatar), spelframsteg, inlärningsstatistik, planer för provövning, de senaste spelsessionerna och appinställningar, samt den valfria föräldrakoden och en slumpmässig identifierare som appen skapar för att räkna stjärnorna på enheten. Uppgifterna finns i appens privata lagringsutrymme, som andra appar inte kan läsa.</li>
+        <li><strong>Ingen internetåtkomst:</strong> Android-appen begär inte behörighet att använda internet, har inga konton och skickar inga uppgifter till oss eller till någon annan.</li>
+        <li><strong>Androids säkerhetskopiering:</strong> Om säkerhetskopiering är påslagen i enhetens inställningar tar Android med appens data i enhetens säkerhetskopia, som lagras i enhetsägarens Google-konto. Säkerhetskopian görs av Android, inte av appen, och vi har ingen åtkomst till den. På Android 9 och senare krypteras säkerhetskopian från början till slut med enhetens pinkod, mönster eller lösenord när enheten har skärmlås. Tack vare säkerhetskopian kommer profilerna tillbaka när appen installeras om eller en ny enhet tas i bruk. Du kan stänga av säkerhetskopieringen i enhetens inställningar för säkerhetskopiering och radera säkerhetskopior från ditt Google-konto.</li>
+        <li><strong>Aviseringar:</strong> Påminnelserna är frivilliga och avstängda från början. En förälder kan slå på dem för en profil, och då ber Android 13 och senare om tillstånd att visa aviseringar. Påminnelserna schemaläggs och visas på enheten (Androids WorkManager); ingen pushtjänst eller server används. De kan stängas av i appen eller i Androids inställningar.</li>
+        <li><strong>Uppläsning:</strong> Uppläsningen använder den talsyntesmotor som är installerad på enheten (till exempel Googles taltjänster eller enhetstillverkarens egen motor). Appen skickar bara den uppgifts- och feedbacktext som visas på skärmen till motorn, aldrig namn eller andra profiluppgifter. Motorn är en separat app från Google eller enhetstillverkaren, och dess egna integritetsvillkor gäller för den.</li>
+        <li><strong>Behörigheter:</strong> Aviseringar (bara när påminnelser är på), vibration (haptisk återkoppling) samt de behörigheter som Androids WorkManager-bibliotek använder för att behålla schemalagda påminnelser efter en omstart (köras vid start, hålla enheten vaken, visa nätverksanslutningar). Appen använder inte plats, kamera, mikrofon, kontakter eller dina filer, och behörigheten för annons-id har tagits bort.</li>
+        <li><strong>Inga tredjepartstjänster:</strong> Android-appen innehåller inga SDK:er för reklam, analys, felrapportering eller spårning, inga sociala funktioner, inte Google Play Spel och ingen inloggning. Den använder bara Androids egna bibliotek (AndroidX/Jetpack), som inte samlar in data.</li>
+        <li><strong>Google Play:</strong> Google kan samla in uppgifter om nedladdning och installation och, om enhetsägaren har tillåtit det, krasch- och diagnostikdata enligt Googles egen integritetspolicy. I Google Play Console ser vi bara sammanställd statistik och anonyma kraschrapporter (till exempel enhetsmodell och Android-version) som inte identifierar någon.</li>
+        <li><strong>Radera data:</strong> En profil kan raderas i appen (bakom vuxenfrågan). All data raderas när du rensar appens lagringsutrymme i Androids inställningar (Inställningar &gt; Appar &gt; Matikkapelisi &gt; Lagringsutrymme &gt; Rensa lagringsutrymme; menynamnen varierar mellan enheter) eller avinstallerar appen. Data i enhetens säkerhetskopia hanteras i Google-kontots inställningar för säkerhetskopiering.</li>
+    </ul>
+    <p>Eftersom vi aldrig får några uppgifter från appen kan vi inte se, rätta eller radera dem åt dig. De är helt under din kontroll på enheten och i din egen säkerhetskopia.</p>
+
+    <h2>7. Ändringar av denna policy</h2>
     <p>Om vi uppdaterar denna integritetspolicy publicerar vi den reviderade versionen på denna sida och uppdaterar giltighetsdatumet. Eftersom appen inte samlar in kontaktuppgifter uppmuntrar vi dig att granska denna sida regelbundet.</p>
 
-    <h2>7. Kontakta oss</h2>
+    <h2>8. Kontakta oss</h2>
     <p>Om du har frågor om denna integritetspolicy eller appen, kontakta oss på:</p>
     <p><a href="mailto:info@liedel.fi">info@liedel.fi</a></p>
 </div>
